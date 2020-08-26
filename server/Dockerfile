@@ -13,7 +13,7 @@ ENV LANG en_US.UTF-8
 
 ARG GIT_REPO
 ARG GIT_BRANCH
-ARG KEYCLOAK_DIST=https://downloads.jboss.org/keycloak/$KEYCLOAK_VERSION/keycloak-$KEYCLOAK_VERSION.tar.gz
+ARG KEYCLOAK_DIST=https://senofi-download.s3.us-east-2.amazonaws.com/org/jboss/keycloak/keycloak-$KEYCLOAK_VERSION.tar.gz
 
 USER root
 
